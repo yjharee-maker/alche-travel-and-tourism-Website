@@ -1,6 +1,57 @@
+body {
+    background-color: aquamarine;
+}
 header {
     background-color: blue;
+    padding: 50px 0 30px;
+    max-width: 1250px;
+    max-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+}
+header .nav-links {
+    margin-left: auto;
 }
 footer {
     background-color: blue;
+    padding: 50px 0 30px;
+}
+.footer_content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LOGO img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.footer_content p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+h1, h2 {
+    color: blueviolet;
 }
